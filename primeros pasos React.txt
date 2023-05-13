@@ -1,0 +1,47 @@
+function App() {
+  //Antes del return van lo de JavaScript 
+  const sumar = () => {
+
+    const numero = 5;
+    if(numero> 5 ){
+      console.log('Si es mayor')
+    }else{
+      console.log('No es mayor')
+    }
+    // console.log(2 + 2);
+  }
+  sumar();
+
+  const edad = 19;
+
+  return (
+    //<> </> -> es un DIV Fragmentado
+    <>
+      {/* No se puede usar if pero si con ternearios */}
+      {edad >= 19 ? 'Eres mayor de edad' : 'No eres mayor de edad'} 
+      <div > {/* Convertir un string en java script con comillas doble o normales */}
+          <h1>{'Hola Mundo'.toUpperCase()}</h1> {/*HOLA MUNDO*/}
+          {/* <input type="text" /> */}
+          <p>Un parrafo</p>
+      </div>
+
+      <div>
+        <h1>Hola Mundo 2</h1> {/*Hola Mundo 2*/}
+        <p>Un parrafo 2</p>
+      </div>
+    </>
+  )
+}
+
+export default App
+
+
+
+
+---------------------------------------------------------------
+Siempre para comenza React de nuevo, utilizar el comando
+npm run dev
+
+---------------------------------------------------------------
+los props van de padres hacia hijos, no de hijos hacia los padres
+

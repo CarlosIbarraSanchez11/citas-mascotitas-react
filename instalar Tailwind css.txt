@@ -1,0 +1,13 @@
+Codigo en la terminal para la instalacion de tailwinds
+npm i -D tailwindcss postcss autoprefixer
+
+Despues 
+npx tailwindcss init -p
+
+-------------------------------------------------------
+agregar en el index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+Despues en el tailwind.config.js, instanciar las rutas
+content: ["./index.html", "./src/**/*.jsx"],
