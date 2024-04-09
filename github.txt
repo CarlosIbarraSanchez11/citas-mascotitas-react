@@ -1,0 +1,8 @@
+Crea una nueva rama y te direcciona a la nueva rama
+git checkout -b <nombre de rama> main
+
+Hacer un merge
+git merge <nombre de la rama que no es main>
+
+Eliminar una rama que ya no uses
+git branch -d <nombre de la rama>
